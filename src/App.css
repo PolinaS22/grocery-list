@@ -1,0 +1,68 @@
+body {
+  background-color: #62c2c8;
+}
+.app {
+  background-color: white;
+  min-height: 80vh;
+  width: 400px;
+  margin: 20px auto;
+}
+
+.crossed {
+  text-decoration: line-through 2px red;
+  background-color: #f0f0f0;
+}
+
+ul, li {
+  list-style-type: none;
+  padding: 10px;
+  margin: 0;
+  display: block;
+  line-height: 50px;
+  font-family: "Raleway", sans-serif;
+}
+ul li img {
+  vertical-align: middle;
+  margin-right: 7px;
+}
+
+h1 {
+  font-family: "Raleway", sans-serif;
+  font-size: 45px;
+  color: #013a3a;
+}
+
+.container {
+  display: flex;
+  justify-content: center;
+}
+.containerList {
+  margin-left: 40px;
+  margin-right: 40px;
+}
+
+.btn-add {
+  background: #65aa06;
+  margin-top: 15px;
+}
+
+.btn-delete {
+  background: #d30100;
+  margin-bottom: 5px;
+}
+
+.btn {
+padding: 10px;
+border: none;
+width: 70%;
+color: white;
+font-size: 16px;
+font-family: "Raleway", sans-serif;
+}
+input {
+  flex: 1;
+  padding: 5px;
+  margin: 10px;
+  font-family: "Raleway", sans-serif;
+  text-align: center;
+}
